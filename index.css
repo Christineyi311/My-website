@@ -12,28 +12,29 @@ h1{
     font-family:'Verdana';
     color: #707070;
     font-size: 30px;
-    left:50%;
-    top: 20px;
+
 }
 p{
     font-family:'Verdana';
     color: #707070;
     font-size: 20px;
-    margin-left: 30px;
+
 }
 h2{
     font-family:'Verdana';
     color: #707070;
     font-size: 35px;
-    margin-left: 250px;
 }
 h3{
     font-family:'Verdana';
     color: #707070;
     font-size: 35px;
-    margin-left: 30px;
+   
 }
 
-img{
-    margin-left: 100px;
-}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+  }

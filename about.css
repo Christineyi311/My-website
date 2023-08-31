@@ -16,7 +16,6 @@ p{
     font-family:'Verdana';
     color: #707070;
     font-size: 20px; 
-    margin-bottom: 50px;
 
 }
 h2{
@@ -32,8 +31,16 @@ h3{
     margin-left: 30px;
 }
 
-img{
-    margin-left: 570px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+h4{
+    font-family:'Verdana';
+    color: #707070;
+    font-size: 35px;
+    margin-left: 30px;
 }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+  }
