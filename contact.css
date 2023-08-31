@@ -1,0 +1,18 @@
+@import url(https://fonts.google.com/?sort=popularity);
+
+.special-paragraph{
+    font-size: 35px;
+    }
+
+body {
+    background-image: url(websitebackground.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+ }
+
+button {
+    background-color: black;
+    border: none;
+    color: white;
+}

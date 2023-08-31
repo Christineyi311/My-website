@@ -1,0 +1,39 @@
+
+body {
+    background-image: url(websitebackground.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+ }
+
+h1{
+    font-family:'Verdana';
+    color: #707070;
+    font-size: 30px;
+   
+}
+p{
+    font-family:'Verdana';
+    color: #707070;
+    font-size: 20px; 
+    margin-bottom: 50px;
+
+}
+h2{
+    font-family:'Verdana';
+    color: #707070;
+    font-size: 35px;
+    bottom: 50px;
+}
+h3{
+    font-family:'Verdana';
+    color: #707070;
+    font-size: 35px;
+    margin-left: 30px;
+}
+
+img{
+    margin-left: 570px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width", initial-scale="1.0">
+    <title>About Myself</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="white">
+        <div class="container-fluid">
+            <a href="index.html" class="navbar-brand">Christine Yi</a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <h1 id="welcome">Hello and welcome to my website!</h1>
+    
+    <h2>About My Family</h2>
+    <p>My family consists of 5 members:</p>
+    <p>My dad, mom, two sisters, and me!</p>
+    <p>Our family enjoys participating in physical activities.</p>
+    <p>We usually engage in sports like tennis or running.</p>
+    <p>On Friday nights, we like to watch a movie while having a snack.</p>
+
+   
+
+
+
+
+<label for="name">What's your name? </label>
+<input type="text" id="name" name="name" />
+<button id="button">Say Hi</button>
+
+<script>
+     let button = document.getElementById("button");
+        button.onclick = () => {
+            let nameInput = document.getElementById("name");
+            let name = nameInput.value;
+            let welcomeMessage = document.getElementById("welcome");
+            welcomeMessage.innerHTML = "Hello " + name + ", welcome to my website!";
+            localStorage.setItem("name", name);
+        }
+
+window.onload = () => {
+    if (localStorage.getItem("name") != null) {
+                let welcomeMessage = document.getElementById("welcome");
+                welcomeMessage.innerHTML = "Hello " + localStorage.getItem("name") + ", welcome to my website!";
+    }
+}
+</script>
+
+
+</body>
+
+</html>
+
