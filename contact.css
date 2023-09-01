@@ -11,8 +11,16 @@ body {
     background-attachment: fixed;
  }
 
-button {
-    background-color: black;
+.btn-primary {
+    background-color:white;
     border: none;
-    color: white;
+    color:#555555;
+    border-radius: 4px;
+    transition-duration: 0.4s;
 }
+
+.btn-primary:hover {
+    background-color: black; /* Green */
+    color: white;
+  }
+  
